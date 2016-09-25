@@ -1,0 +1,7 @@
+<script>
+var date = new Date();
+date.setTime(date.getTime()+(5*1000));
+if(window.location.pathname == "/about.html")
+    document.cookie = "page=about; expires="+date.toGMTString();
+window.location = "http://sdm.ac.in/";
+</script>

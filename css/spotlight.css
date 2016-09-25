@@ -1,0 +1,28 @@
+.spotlight-pager-container
+{
+  position:static;
+  overflow:hidden;
+  width:100vw;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  min-height:50vh;
+  max-height:60vh;
+
+
+}
+
+.spotlight-pager{
+  position: relative;
+  display: flex;
+  flex-flow:row nowrap;
+  padding:0px;
+  margin:0px;
+
+
+}
+
+.spotlight-pager > .spotlight-page
+{
+  width:100vw;
+  border-right:1px white;
+
+}
